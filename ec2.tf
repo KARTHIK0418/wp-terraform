@@ -1,5 +1,5 @@
 # Creating EC2 Instance
-resource "aws_instance" "wordpress" {
+resource "aws_instance" "python" {
   ami                         = "ami-0cf7b2f456cd5efd4"
   instance_type               = "t2.micro"
   key_name                    = "new-key"
