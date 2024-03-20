@@ -5,8 +5,8 @@ resource "aws_security_group" "demosg" {
   # Inbound Rules
   # HTTP access from anywhere
   ingress {
-    from_port   = 7000
-    to_port     = 7000
+    from_port   = 80
+    to_port     = 80
     protocol    = "tcp"
     cidr_blocks = [var.anywhere_cidr]
   }
